@@ -3,7 +3,7 @@ description: 'This GitHub action will handle the building and deploying process 
 author: 'y4code'
 runs:
   using: 'docker'
-  image: 'Dockerfile'
+  image: 'dockerfile'
 branding:
   icon: 'git-commit'
   color: 'orange'
