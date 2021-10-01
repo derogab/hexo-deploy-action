@@ -1,9 +1,9 @@
-name: 'Hexo Deploy Action With CNAME'
+name: 'Hexo Deploy Action'
 description: 'This GitHub action will handle the building and deploying process of hexo project.'
-author: 'y4code'
+author: 'derogab'
 runs:
   using: 'docker'
   image: 'dockerfile'
 branding:
   icon: 'git-commit'
-  color: 'orange'
+  color: 'blue'

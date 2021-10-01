@@ -4,11 +4,11 @@ FROM node:lts
 LABEL "com.github.actions.name"="Hexo Deploy"
 LABEL "com.github.actions.description"="This GitHub action will handle the building and deploying process of hexo project."
 LABEL "com.github.actions.icon"="git-commit"
-LABEL "com.github.actions.color"="orange"
+LABEL "com.github.actions.color"="blue"
 
-LABEL "repository"="https://github.com/y4code/hexo-deploy-action"
-LABEL "homepage"="https://github.com/y4code/hexo-deploy-action"
-LABEL "maintainer"="renzhaosy"
+LABEL "repository"="https://github.com/derogab/hexo-deploy-action"
+LABEL "homepage"="https://github.com/derogab/hexo-deploy-action"
+LABEL "maintainer"="derogab"
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
